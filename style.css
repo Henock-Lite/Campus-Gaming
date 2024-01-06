@@ -99,5 +99,18 @@ header {
     width: 60%;
     margin: 25px auto;
     line-height: 1.5em;
+}
 
+.icon-part{
+    background: #151515;
+    color: var(--color1);
+    display: flex;
+    justify-content: center;
+   
+}
+.lip-logo{
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
