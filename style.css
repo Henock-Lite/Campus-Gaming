@@ -1,0 +1,14 @@
+:root{
+    --color1: whitesmoke;
+    --color2:rgb(20, 19, 19);
+    --color3:blueviolet;
+    --color4:rgb(238,238,238);
+    --color5:rgb(241,241,241);
+    --color6:rgb(184, 184, 184);
+}
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(assets/font/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+
