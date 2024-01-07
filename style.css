@@ -25,10 +25,15 @@ button {
   font-weight: bold;
   border: 1px solid;
   transition: ease 0.5s;
+  cursor: pointer;
 }
 button:hover {
   background: var(--color1);
   color: var(--color2);
+}
+a{
+  text-decoration: none;
+  color: rgb(97, 31, 159);
 }
 
 body {
@@ -92,7 +97,8 @@ header {
 .main-header button {
   margin: 20px auto;
   cursor: pointer;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
+  padding:.9em 1em;
 }
 .header-text p{
     font-weight: bolder;
@@ -101,7 +107,6 @@ header {
     line-height: 1.5em;
     padding: 10px;
 }
-
 section.icon-part{
     height: 100%;
     background: #171717;
@@ -116,7 +121,6 @@ section.icon-part{
 }
 .lip-logo img{
     margin: 20px auto;
-
 }
 .list-icon-part h3{
     text-transform: uppercase;
@@ -126,7 +130,6 @@ section.icon-part{
     width: 85%;
     margin: 10px auto;
     font-weight: 700;
-
 }
 .list-icon-part{
     margin: 10px auto;
@@ -164,10 +167,6 @@ section.icon-part{
   border: 1px black solid;
   cursor: pointer;
   color: var(--color2);
-  cursor: pointer;
-  
-  
-  
 }
 .right-part button:hover{
   background: var(--color2);
@@ -181,23 +180,17 @@ button i{
   justify-content:space-between;
   max-width: 1100px;
   margin: 0 auto;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 }
 .main-news-container >div{
   width: 80%;
   position: relative;
-  
-  
 }
-
 .mn-pic{
   text-align: left;
 }
-
-
 .mn-pic img{
   width: 75%;
-
 }
 .main-news-container h4{
   margin: 10px 0;
@@ -211,9 +204,12 @@ button i{
   font-size:1.1em;
   text-align: left;
   font-weight: bold;
+  
 }
-
 .link{
   position: absolute;
   bottom: 0;
+}
+.link i{
+  margin: 0 15px; 
 }
