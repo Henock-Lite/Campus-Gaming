@@ -111,8 +111,8 @@ section.icon-part{
 .icon-part-container{
     display: flex;
     max-width: 1100px;
-    justify-content: center;
-    margin: 20px auto;
+    justify-content:space-between;
+    margin: 30px auto;
 }
 .lip-logo img{
     margin: 20px auto;
@@ -123,8 +123,8 @@ section.icon-part{
     margin: 10px auto;
 }
 .list-icon-part p{
-    width: 80%;
-    margin: 5px auto;
+    width: 85%;
+    margin: 10px auto;
     font-weight: 700;
 
 }
@@ -134,4 +134,86 @@ section.icon-part{
 .list-icon-part button{
     margin: 10px auto;
     cursor: pointer;
+}
+.news-part{
+  background:var(--color4);
+}
+.header-news{
+  display:grid;
+  grid-template-columns:65% 35%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+.left-part{
+  text-align: left;
+  line-height:1.8em;
+  margin: 25px 0;
+}
+.left-part h2{
+  text-transform: uppercase;
+}
+.left-part p{
+  font-weight: 800;
+}
+.right-part{
+  text-align: left;
+  align-self: center;
+}
+.right-part button{
+  border: 1px black solid;
+  cursor: pointer;
+  color: var(--color2);
+  cursor: pointer;
+  
+  
+  
+}
+.right-part button:hover{
+  background: var(--color2);
+  color: var(--color1);
+}
+button i{
+  margin: 0 10px;
+}
+.main-news .main-news-container{
+  display: flex;
+  justify-content:space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.main-news-container >div{
+  width: 80%;
+  position: relative;
+  
+  
+}
+
+.mn-pic{
+  text-align: left;
+}
+
+
+.mn-pic img{
+  width: 75%;
+
+}
+.main-news-container h4{
+  margin: 10px 0;
+  width: 80%;
+  text-align: left;
+  font-size: 1.2em;
+}
+.main-news-container p{
+  width: 81%;
+  margin: 40px 0;
+  font-size:1.1em;
+  text-align: left;
+  font-weight: bold;
+}
+
+.link{
+  position: absolute;
+  bottom: 0;
 }
