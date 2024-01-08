@@ -18,18 +18,18 @@
   list-style: none;
 }
 button {
-  text-transform: uppercase;
-  padding: 0.6em;
-  background: transparent;
-  color: var(--color1);
-  font-weight: bold;
-  border: 1px solid;
-  transition: ease 0.5s;
+  all: unset;
+  border: solid 1px whitesmoke;
+  padding: .5em;
   cursor: pointer;
+  background:transparent;
+  font-weight: bold;
+  transition: ease .5s;
+  text-transform: uppercase;
 }
-button:hover {
-  background: var(--color1);
-  color: var(--color2);
+button:hover{
+  background-color: whitesmoke;
+  color:var(--color2);
 }
 a{
   text-decoration: none;
@@ -85,21 +85,25 @@ header {
   background: url(/assets/img/bg.jpg) center/cover;
   color: var(--color1);
   text-transform: uppercase;
-  padding: 20px;
+  padding: 80px;
+  background-attachment: fixed;
+  height: 100%;
+  
 }
+
 .main-header #logo img {
   width: 45%;
 }
+
 .main-header h1 {
   font-weight: 600;
   font-size: 1.3em;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 .main-header button {
-  margin: 20px auto;
-  cursor: pointer;
-  letter-spacing: 3px;
-  padding:.9em 1em;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+ 
 }
 .header-text p{
     font-weight: bolder;
@@ -175,6 +179,7 @@ section.icon-part{
 }
 button i{
   margin: 0 10px;
+  font-size: .8em;
 }
 .main-news .main-news-container{
   display: flex;
@@ -307,5 +312,21 @@ button i{
  }
  footer ul li{
   margin: 0 10px;
+ }
+ @media screen and (max-width:1053px){
+
+  nav li{
+    font-size: 0.7em;
+  }
+  #logo img{
+    width: 40%;
+  }
+
+  .main-header h1 {
+    font-size:1.0em;
+  }
+  .main-header button{
+    padding: .5em 1em;
+  }
  }
 
