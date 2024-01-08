@@ -40,6 +40,7 @@ body {
   height: 100%;
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  background:white;
 }
 nav ul {
   display: flex;
@@ -191,6 +192,7 @@ button i{
 }
 .mn-pic img{
   width: 75%;
+  box-shadow:4px 7px 20px 9px rgb(180, 179, 179);
 }
 .main-news-container h4{
   margin: 10px 0;
@@ -213,3 +215,77 @@ button i{
 .link i{
   margin: 0 15px; 
 }
+.contact{
+  height: 100%;
+}
+.contact-container{
+  max-width: 1100px;
+  margin: 30px auto;
+  padding-top: 30px;
+  height: 100%;
+}
+.contact-list{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px;
+}
+.list{
+  text-align: left;
+  width:100%
+}
+.list h5{
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.list p{
+  width: 85%;
+  line-height: 1.7em;
+  margin: 10px 0;
+}
+.infos-p li{
+  line-height: 1.7em;
+  margin: 10px 0;
+  font-weight: bold;
+}
+.list h6{
+  margin: 15px 0;
+  font-weight:bold;
+  font-size: 1em;
+}
+.footer-logos i{
+  margin: 20px 5px;
+}
+ .copyright{
+  font-weight:bold;
+  font-size: 1em;
+ }
+ .contact-medias{
+  margin: 30px
+   0;
+   text-align: left;
+   display: grid;
+   grid-template-columns:30% 70%;
+   position: relative;
+   padding-top: 60px;
+
+ }
+ .contact-medias::after{
+  content: "";
+  width:80%;
+  height: 1px;
+  background: #aeaeae;
+  top: 0;
+  position: absolute;
+  transform: translate(-50%,-50%) translateX(-8%);
+  left: 50%;
+ }
+ .medias-text h3{
+  text-transform: uppercase;
+  line-height: 1.9em;
+ }
+ .medias-logos{
+  align-self: center;
+ }
+
