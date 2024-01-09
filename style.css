@@ -10,7 +10,6 @@
   font-family: "Montserrat", sans-serif;
   src: url(assets/font/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
 }
-
 * {
   padding: 0;
   margin: 0;
@@ -331,16 +330,13 @@ button i{
   nav{
     display: none;
   }
-  
  }
  @media screen and (max-width:918px){
-
   .list-icon-part p{
     width:100%;
   }
  }
  @media screen and (max-width:810px) {
-   
   .icon-part{
     width: 100%;
   }
@@ -367,7 +363,6 @@ button i{
  @media screen and (max-width:965px) {
   .left-part h2{
     font-size: 1em;
-
   }
   .right-part{
     padding: .5em 1em;
@@ -380,13 +375,10 @@ button i{
   }
  }
  @media screen and (max-width:697px) {
-
   .icon-part-container{
     flex-direction: column;
   }
-  
  }
-
  @media screen and (max-width:697px){
   .header-news{
     grid-template-columns: 1fr;
@@ -425,7 +417,6 @@ button i{
   .main-news-container >div{
     margin: 0 auto;
   }
-  
  }
 
 
