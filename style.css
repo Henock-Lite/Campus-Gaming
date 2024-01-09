@@ -88,9 +88,7 @@ header {
   padding: 80px;
   background-attachment: fixed;
   height: 100%;
-  
 }
-
 .main-header #logo img {
   width: 45%;
 }
@@ -113,6 +111,7 @@ header {
     padding: 10px;
 }
 section.icon-part{
+
     height: 100%;
     background: #171717;
     color: var(--color1);
@@ -309,19 +308,18 @@ button i{
   margin: 0 auto;
   padding-bottom: 20px;
   align-items: center;
+  flex-wrap: wrap;
  }
  footer ul li{
   margin: 0 10px;
  }
  @media screen and (max-width:1053px){
-
   nav li{
     font-size: 0.7em;
   }
   #logo img{
     width: 40%;
   }
-
   .main-header h1 {
     font-size:1.0em;
   }
@@ -329,4 +327,54 @@ button i{
     padding: .5em 1em;
   }
  }
+ @media screen and (max-width:918px){
+
+  .list-icon-part p{
+    width:100%;
+  }
+ }
+ @media screen and (max-width:810px) {
+   
+  .icon-part{
+    width: 100%;
+  }
+  .icon-part-container{
+    max-width:810px;
+  }
+  .lip-logo img{
+    width:60%;
+  }
+
+  .list-icon-part h3{
+    font-size: .8em;
+  }
+  .list-icon-part p{
+    font-weight:500;
+    font-size:.9em;
+    margin:15px auto;
+    width:160px;
+  }
+  .list-icon-part button{
+    padding: .5em; 
+  }
+ }
+ @media screen and (max-width:965px) {
+  .left-part h2{
+    font-size: 1em;
+
+  }
+  .right-part{
+    padding: .5em 1em;
+  }
+  .main-news-container h4{
+    font-size: 1em;
+  }
+  .main-news-container p{
+    font-size:medium;
+  }
+ }
+ 
+ 
+
+ 
 
