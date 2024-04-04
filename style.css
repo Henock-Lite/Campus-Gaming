@@ -81,7 +81,7 @@ nav li:last-child {
   border-radius: 150px;
 }
 header {
-  background: url(/assets/img/bg.jpg) center/cover;
+  background: url(../assets/img/bg.jpg) center/cover;
   color: var(--color1);
   text-transform: uppercase;
   padding: 80px;
@@ -92,6 +92,7 @@ header {
   width: 45%;
 }
 
+  
 .main-header h1 {
   font-weight: 600;
   font-size: 1.3em;
@@ -412,7 +413,6 @@ button i{
     .mn-pic img{
       width: 50%;
     }
-    
   }
   .main-news-container >div{
     margin: 0 auto;
